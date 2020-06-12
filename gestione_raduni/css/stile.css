@@ -1,0 +1,164 @@
+* { margin: 0px; padding: 0px; }
+.both { clear: both; }
+
+body { background-color: #333; font: normal 11px Verdana, Tahoma, Arial, Helvetica, sans-serif; color: #666; }
+
+h1 { font-size: 12px; }
+h1 img { float: left; margin-right: 5px; }
+h2 { font: bold 11px Verdana, Tahoma, Arial, Helvetica, sans-serif; color: #666; }
+
+#main { margin: 100px auto; width: 762px;
+	clear: both; background: #fff; }
+
+#top { background: #333;
+	width: 762px; height: 16px; clear: both; }
+
+#mainContent { padding: 0px 16px; clear: both; }
+
+.imgLeft { float: left; }
+.imgRight { float: right; text-align: right; }
+
+#leftCol { float: left; width: 250px; padding: 10px; background: #929292; height: 360px; }
+#leftCol p { color: #fff; text-align: justify; line-height: 14px; margin: 5px 0px; width: 210px; float: left; }
+#leftCol a { color: #fc0; text-decoration: none; font-weight: bold; }
+#leftCol a:hover { color: #fff; text-decoration: none; }
+
+#rightCol { width: 430px; background: #fff; float: left;
+	margin-left: 20px; padding-top: 12px; }
+#rightCol a { color: #900; text-decoration: underline; }
+#rightCol a:hover { color: #900; text-decoration: none; }
+#rightCol p { margin: 10px 0px; line-height: 16px; }
+#rightCol ol { list-style: none; }
+#rightCol ol li { margin: 7px 0px; }
+
+#menu { text-align: center; clear: both; width: 430px; }
+#menu li { list-style: none; float: left; margin: 0px 6px 3px 6px; }
+#menu li a { font: bold 10px Verdana, Arial, helvetica, sans-serif; color: #333; text-decoration: none; }
+#menu li a:hover { color: #900; text-decoration: none; }
+
+#footer { background: #333;
+	width: 762px; height: 30px; clear: both; }
+#footer p { padding: 15px; color: #fff; }
+#footer a { color: #fc0; text-decoration: none;  }
+#footer a:hover { color: #fff; text-decoration: none; }
+
+.box{
+	width: 500px;
+	padding: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+  }
+  .box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+  .box input[type = "email"],.box input[type = "password"],.box input[type = "text"],.box input[type = "text"],.box input[type = "date"],.box input[type = "text"],.box input[type = "text"],.box input[type = "text"],.box input[type = "text"],.box input[type = "text"],.box input[type = "text"],.box input[type = "text"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+  }
+
+  .box input[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+  }
+
+  .box input[type = "email"]:focus,.box input[type = "password"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "date"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus,.box input[type = "text"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+  }
+  .box input[type = "submit"]:hover{
+	background: #2ecc71;
+  }
+
+  .box input[type = "reset"]:hover{
+	background: #2ecc71;
+  }
+
+  body{
+	background-image: url("https://cdn.pixabay.com/photo/2019/11/05/11/36/oldtimer-4603317_960_720.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+/*contenitore contenete il form */
+
+.contenitore {
+	  border:1px solid black;
+	  margin:auto;
+	  width: 1020px;
+      height: 850px;
+      border-radius: 0px 0px 40px 40px;
+      padding:20px;
+      background-color:rgba(0,0,0,0.8);
+      box-shadow: 20px 20px 20px #000000;
+     
+      color:white;
+
+}
+
+.contenitore input{
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    border:1px solid black;
+    height: 30px;
+
+}
+.contenitore input[type="text"], input[type="password"], input[type = "email"], input[type = "password"], input[type = "text"], input[type = "text"], input[type = "date"], input[type = "text"], input[type = "text"], input[type = "text"], input[type = "text"], input[type = "text"], input[type = "text"], input[type = "text"]{
+	/* i css si riferiscono solo alla barra ditesto */
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contenitore p{
+	
+}
+.contenitore input[type="submit"]{  /* i css si riferiscono solo al pulsante */
+	border-radius: 14px;
+	height: 40px;
+}
+
+.contenitore input[type="submit"]:hover {
+	background: lightblue;
+}
+
+#boxed {
+	background-color: grey;
+	width: 700;
+	border: 1px black;
+	padding: 50px;
+	margin: 20px;
+  }
